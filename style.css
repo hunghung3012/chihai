@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+input {
+    height: 30px;
+width: 200px;
+border-radius: 10px;
+outline: none;
+border: 1px solid black;
+padding: 10px;
+}
+.total_price {
+    color: rgb(164, 16, 41);
+    font-weight: bold;
+}
+
+.button_title {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.total_button {
+    border-radius: 20px;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(205, 141, 141, 0.448);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0 auto;
+    transition:  all 0.2s ease;
+}
+.total_button:hover {
+    transform: scale(1.07);
+}
