@@ -50,3 +50,9 @@ padding: 10px;
 .total_button:hover {
     transform: scale(1.07);
 }
+.select_pay {
+    margin: 10px 0px 20px 0px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
